@@ -1,0 +1,679 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+fieldset,
+form,
+menu,
+select,
+textarea,
+input,
+button,
+optgroup {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  background-color: transparent;
+}
+img,
+input,
+button {
+  border: 0;
+}
+input {
+  border-radius: 0;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "TitilliumWeb-Regular";
+  src: url(../fonts/TitilliumWeb-Regular.ttf);
+}
+@font-face {
+  font-family: "TitilliumWeb-SemiBold";
+  src: url(../fonts/TitilliumWeb-SemiBold.ttf);
+}
+@font-face {
+  font-family: "TitilliumWeb-Bold";
+  src: url(../fonts/TitilliumWeb-Bold.ttf);
+}
+@font-face {
+  font-family: "TitilliumWeb-Light";
+  src: url(../fonts/titillium-web.light.ttf);
+}
+@font-face {
+  font-family: "TitilliumWeb-Italic";
+  src: url(../fonts/titillium-web.italic.ttf);
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.topTitle {
+  text-align: center;
+  font-family: TitilliumWeb-Bold, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.line {
+  height: 4px;
+  width: 86px;
+  margin: 14px auto 18px;
+}
+.topText {
+  text-align: center;
+  font-family: TitilliumWeb-Regular, sans-serif;
+  color: #0a4773;
+  font-size: 18px;
+}
+.card {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 72px 30px 125px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.topcontent {
+  padding-top: 110px;
+  box-sizing: border-box;
+}
+.entryField {
+  border: none;
+  border-radius: 5px;
+  background: #273a71;
+}
+.entryField:-ms-input-placeholder {
+  font-family: TitilliumWeb-Regular, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding-left: 25px;
+}
+.entryField::placeholder {
+  font-family: TitilliumWeb-Regular, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding-left: 25px;
+}
+.Welcome {
+  background: #87509c;
+}
+.Welcome-container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.Welcome-content {
+  padding-top: 80px;
+  color: #fff;
+  text-align: center;
+}
+.Welcome-contentTitle {
+  font-size: 40px;
+  font-family: "TitilliumWeb-SemiBold", sans-serif;
+}
+.Welcome-button {
+  padding-bottom: 145px;
+}
+.Header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 150px;
+}
+.Header-logo {
+  margin-left: 60px;
+  height: 38px;
+  width: 117px;
+}
+.Header-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 440px;
+  margin-right: 30px;
+}
+.Header-navItem {
+  height: 32px;
+  line-height: 32px;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+.Header-navItem--active {
+  background: #643a79;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.Header-navItem:hover {
+  background: #643a79;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.Header-navItemLink {
+  font-family: "TitilliumWeb-Regular", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.Button {
+  background: #eb7d4b;
+  color: #fff;
+  font-family: "TitilliumWeb-SemiBold", sans-serif;
+  padding: 25px 0;
+  display: block;
+  width: 293px;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  margin: 0 auto;
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+.Button:after {
+  background: #ba6664;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  content: '';
+  height: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.Button--mint {
+  background: #17c2a4;
+}
+.Button--mint:after {
+  background: #4fa78e;
+}
+.Button--blue {
+  background: #30bae7;
+}
+.Button--blue:after {
+  background: #3194c5;
+}
+.Service {
+  background: #17c2a4;
+}
+.Service-container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.Service-top {
+  padding-top: 110px;
+  box-sizing: border-box;
+}
+.Service-topTitle {
+  text-align: center;
+  font-family: TitilliumWeb-Bold, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 4px;
+}
+.Service-topLine {
+  height: 4px;
+  width: 86px;
+  margin: 14px auto 18px;
+  background: #16b79b;
+}
+.Service-topText {
+  text-align: center;
+  color: #fff;
+  font-family: TitilliumWeb-Regular, sans-serif;
+  font-size: 20px;
+}
+.Service-bottom {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.Service-bottomCard {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 72px 30px 125px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.Service-bottomCardCaption {
+  font-family: TitilliumWeb-Bold, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 54px;
+  padding-bottom: 22px;
+  letter-spacing: 2px;
+}
+.Service-bottomCardCaption--pad46 {
+  padding-top: 46px;
+}
+.Service-bottomCardText {
+  font-family: TitilliumWeb-Light;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+.Team {
+  background: #e7f1f8;
+}
+.Team-container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.Team-top {
+  padding-top: 110px;
+  box-sizing: border-box;
+}
+.Team-topTitle {
+  text-align: center;
+  font-family: TitilliumWeb-Bold, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #0a4773;
+}
+.Team-topLine {
+  height: 4px;
+  width: 86px;
+  margin: 14px auto 18px;
+  background: #cadae5;
+}
+.Team-topText {
+  text-align: center;
+  font-family: TitilliumWeb-Regular, sans-serif;
+  font-size: 18px;
+  color: #0a4773;
+}
+.Team-bottom {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.Team-bottomCard {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 72px 30px 125px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 72px 46px 125px;
+}
+.Team-bottomCardName {
+  font-family: TitilliumWeb-Bold, sans-serif;
+  color: #0a4773;
+  text-transform: uppercase;
+  padding-top: 32px;
+}
+.Team-bottomCardPossition {
+  font-family: TitilliumWeb-Regular;
+  color: #00a5e0;
+  padding-bottom: 22px;
+}
+.Team-bottomCardText {
+  text-align: center;
+  color: #0a4773;
+  font-size: 16px;
+  padding-bottom: 32px;
+}
+.Team-bottomCardSotial {
+  width: 164px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.Team-bottomCardSotial--pad {
+  padding: 0 22px;
+  box-sizing: border-box;
+}
+.Portfolio {
+  background: #ffdd99;
+}
+.Portfolio-container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.Portfolio-top {
+  padding-top: 110px;
+  box-sizing: border-box;
+}
+.Portfolio-topTitle {
+  text-align: center;
+  font-family: TitilliumWeb-Bold, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #000;
+}
+.Portfolio-topLine {
+  height: 4px;
+  width: 86px;
+  margin: 14px auto 18px;
+  background: #edcc8a;
+}
+.Portfolio-topText {
+  text-align: center;
+  font-family: TitilliumWeb-Regular, sans-serif;
+  color: #0a4773;
+  font-size: 18px;
+  color: #000;
+}
+.Portfolio-topCategory {
+  margin: 0 auto;
+  width: 378px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-top: 38px;
+}
+.Portfolio-topCategoryRadio {
+  display: none;
+}
+.Portfolio-topCategoryRadioStyle {
+  display: inline-block;
+  background: #edcc8a;
+  font-family: TitilliumWeb-Regular, sans-serif;
+  font-size: 18px;
+  color: #000;
+  text-transform: uppercase;
+  height: 38px;
+  line-height: 38px;
+  padding: 0 22px;
+  border-radius: 5px;
+}
+.Portfolio-topCategoryRadio:checked + .Portfolio-topCategoryRadioStyle {
+  background: #fff;
+}
+.Portfolio-bottom {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.Portfolio-bottomCard {
+  padding-top: 60px;
+}
+.Portfolio-bottomCardText {
+  text-align: center;
+  font-family: TitilliumWeb-Regular, sans-serif;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-top: 27px;
+}
+.Portfolio-button {
+  padding-bottom: 110px;
+}
+.Testimonials {
+  background: #d74680;
+}
+.Testimonials-container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.Testimonials-top {
+  padding-top: 110px;
+  box-sizing: border-box;
+}
+.Testimonials-topTitle {
+  text-align: center;
+  font-family: TitilliumWeb-Bold, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #fff;
+}
+.Testimonials-topLine {
+  height: 4px;
+  width: 86px;
+  margin: 14px auto 18px;
+  background: #b43c6c;
+}
+.Testimonials-topText {
+  text-align: center;
+  font-family: TitilliumWeb-Regular, sans-serif;
+  color: #0a4773;
+  font-size: 18px;
+  color: #fff;
+}
+.Testimonials-bottom {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  box-sizing: border-box;
+}
+.Testimonials-bottomCard {
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  /*border: 1px solid #fff;*/
+  box-sizing: border-box;
+  padding: 68px 20px 75px;
+}
+.Testimonials-bottomCardContent {
+  padding-left: 48px;
+}
+.Testimonials-bottomCardContentQuote {
+  font-family: TitilliumWeb-Italic, sans-serif;
+  color: #fff;
+  font-size: 21px;
+  padding-bottom: 18px;
+}
+.Testimonials-bottomCardContentName {
+  font-family: TitilliumWeb-Bold, sans-serif;
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.Testimonials-bottomCardContentPossition {
+  font-family: TitilliumWeb-Regular, sans-serif;
+  font-size: 18px;
+  color: #f4c67e;
+}
+.GetInTouch {
+  background: #3c5499;
+}
+.GetInTouch-container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.GetInTouch-top {
+  padding-top: 110px;
+  box-sizing: border-box;
+}
+.GetInTouch-topTitle {
+  text-align: center;
+  font-family: TitilliumWeb-Bold, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #fff;
+}
+.GetInTouch-topLine {
+  height: 4px;
+  width: 86px;
+  margin: 14px auto 18px;
+  background: #2c4079;
+}
+.GetInTouch-topText {
+  text-align: center;
+  font-family: TitilliumWeb-Regular, sans-serif;
+  color: #0a4773;
+  font-size: 18px;
+  color: #fff;
+}
+.GetInTouch-Form {
+  padding: 70px 140px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.GetInTouch-FormName {
+  border: none;
+  border-radius: 5px;
+  background: #273a71;
+  width: 414px;
+  height: 56px;
+}
+.GetInTouch-FormName:-ms-input-placeholder {
+  font-family: TitilliumWeb-Regular, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding-left: 25px;
+}
+.GetInTouch-FormName::placeholder {
+  font-family: TitilliumWeb-Regular, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding-left: 25px;
+}
+.GetInTouch-FormEmail {
+  width: 414px;
+  border: none;
+  border-radius: 5px;
+  background: #273a71;
+}
+.GetInTouch-FormEmail:-ms-input-placeholder {
+  font-family: TitilliumWeb-Regular, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding-left: 25px;
+}
+.GetInTouch-FormEmail::placeholder {
+  font-family: TitilliumWeb-Regular, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding-left: 25px;
+}
+.GetInTouch-FormMessage {
+  width: 100%;
+  height: 200px;
+  margin-top: 27px;
+  padding-top: 14px;
+  border: none;
+  border-radius: 5px;
+  background: #273a71;
+}
+.GetInTouch-FormMessage:-ms-input-placeholder {
+  font-family: TitilliumWeb-Regular, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding-left: 25px;
+}
+.GetInTouch-FormMessage::placeholder {
+  font-family: TitilliumWeb-Regular, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding-left: 25px;
+}
+.GetInTouch-button {
+  padding-bottom: 110px;
+}
+.Footer {
+  height: 112px;
+  background: #344b8e;
+}
+.Footer-social {
+  width: 1140px;
+  margin: 0 auto;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.Footer-socialItem {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.Footer-socialItemLink {
+  font-family: TitilliumWeb-SemiBold, sans-serif;
+  font-size: 24px;
+  color: #fff;
+}
+.Footer-socialItemLink:hover {
+  color: #3194c5;
+}
+.Skills {
+  background: #fff;
+}
+.Skills-container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.Skills-top {
+  padding-top: 110px;
+  box-sizing: border-box;
+}
+.Skills-topTitle {
+  text-align: center;
+  font-family: TitilliumWeb-Bold, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #0a4773;
+}
+.Skills-topLine {
+  height: 4px;
+  width: 86px;
+  margin: 14px auto 18px;
+  background: #e4e5e6;
+}
+.Skills-topText {
+  text-align: center;
+  font-family: TitilliumWeb-Regular, sans-serif;
+  font-size: 18px;
+  color: #0a4773;
+}
+.Skills-bottom {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding: 80px 70px 120px;
+}

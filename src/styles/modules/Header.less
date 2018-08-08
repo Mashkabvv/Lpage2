@@ -1,0 +1,46 @@
+.Header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 150px;
+
+	&-logo {
+		margin-left: 60px;
+		height: 38px;
+		width: 117px;
+	}
+
+	&-nav {
+		display: flex;
+		justify-content: space-between;
+		width: 440px;
+		margin-right: 30px;
+	}
+
+	&-navItem {
+		height: 32px;
+		line-height: 32px;
+		padding: 0 16px;
+		box-sizing: border-box;
+		
+		&--active {
+			background: #643a79;
+      		border-radius: 5px;
+      		box-sizing: border-box;
+		}
+		
+		&:hover {
+			background: #643a79;
+      		border-radius: 5px;
+      		box-sizing: border-box;
+		}
+	}
+	
+	&-navItemLink {
+		font-family: "TitilliumWeb-Regular", sans-serif;
+		color: @color-textlight;
+		text-transform: uppercase;
+		font-size: 16px;
+	}
+	
+}

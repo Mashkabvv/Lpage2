@@ -1,0 +1,67 @@
+.Team {
+	background: #e7f1f8;
+
+	&-container {
+		.container;
+	}
+
+	&-top {
+		.topcontent;
+	}
+
+	&-topTitle {
+		.topTitle;
+		color: @color-textdarkblue;
+	}
+
+	&-topLine {
+		.line;
+		background: #cadae5;
+	}
+
+	&-topText {
+		.topText;
+		color: @color-textdarkblue;	
+	}
+
+	&-bottom {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&-bottomCard {
+		.card;
+		padding: 72px 46px 125px;
+	}
+
+	&-bottomCardName {
+		font-family: TitilliumWeb-Bold, sans-serif;
+		color: @color-textdarkblue;
+		text-transform: uppercase;
+		padding-top: 32px;
+	}
+	
+	&-bottomCardPossition {
+		font-family: TitilliumWeb-Regular;
+		color: #00a5e0;
+		padding-bottom: 22px;
+	}
+
+	&-bottomCardText {
+		text-align: center;
+		color: @color-textdarkblue;
+		font-size: 16px;
+		padding-bottom: 32px; 
+	}
+
+	&-bottomCardSotial {
+		width: 164px;
+		display: flex;
+		justify-content: space-between;
+
+		&--pad {
+			padding: 0 22px;
+			box-sizing: border-box;
+		}
+	}
+}

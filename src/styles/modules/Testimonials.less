@@ -1,0 +1,65 @@
+.Testimonials {
+	background: #d74680;
+
+	&-container {
+		.container;
+	}
+
+	&-top {
+		.topcontent;
+	}
+
+	&-topTitle {
+		.topTitle;
+		color: @color-textlight;
+	}
+
+	&-topLine {
+		.line;
+		background: #b43c6c;
+	}
+
+	&-topText {
+		.topText;
+		color: @color-textlight;
+	}
+
+	&-bottom {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		box-sizing: border-box;
+	}
+
+	&-bottomCard {
+		display: flex;
+		width: 50%;
+		/*border: 1px solid #fff;*/
+		box-sizing: border-box;
+		padding: 68px 20px 75px;
+	}
+
+	&-bottomCardContent {
+		padding-left: 48px;
+	}
+
+	&-bottomCardContentQuote {
+		font-family: TitilliumWeb-Italic, sans-serif;
+		color: @color-textlight;
+		font-size: 21px;
+		padding-bottom: 18px;
+	}
+
+	&-bottomCardContentName {
+		font-family: TitilliumWeb-Bold, sans-serif;
+		font-size: 24px;
+		color: @color-textlight;
+		text-transform: uppercase;
+	}
+
+	&-bottomCardContentPossition {
+		font-family: TitilliumWeb-Regular, sans-serif;
+		font-size: 18px;
+		color: #f4c67e;
+	}
+}

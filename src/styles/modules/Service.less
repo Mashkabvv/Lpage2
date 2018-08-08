@@ -1,0 +1,63 @@
+.Service {
+	background: #17c2a4;
+
+	&-container {
+		.container;
+	}
+
+	&-top {
+		.topcontent;
+	}
+
+	&-topTitle {
+		text-align: center;
+		font-family: TitilliumWeb-Bold, sans-serif;
+		font-size: 40px;
+		text-transform: uppercase;
+		color: @color-textlight;
+		letter-spacing: 4px;
+	}
+
+	&-topLine {
+		.line;
+		background: #16b79b;
+		
+	}
+
+	&-topText {
+		text-align: center;
+		color: @color-textlight;
+		font-family: TitilliumWeb-Regular, sans-serif;
+		font-size: 20px;
+	}
+
+	&-bottom {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&-bottomCard {
+		.card;
+	}
+
+	&-bottomCardCaption {
+		font-family: TitilliumWeb-Bold, sans-serif;
+		color: @color-textlight;
+		text-transform: uppercase;
+		padding-top: 54px;
+		padding-bottom: 22px;
+		letter-spacing: 2px;
+	}
+
+	&-bottomCardCaption--pad46 {
+		padding-top: 46px;
+	}
+
+	&-bottomCardText {
+		font-family: TitilliumWeb-Light;
+		color: @color-textlight;
+		text-align: center;
+		letter-spacing: 1px;
+		font-size: 16px;
+	}
+}

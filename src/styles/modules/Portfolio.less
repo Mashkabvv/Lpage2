@@ -1,0 +1,78 @@
+.Portfolio {
+	background: #ffdd99;
+
+	&-container {
+		.container;
+	}
+
+	&-top {
+		.topcontent;
+	}
+
+	&-topTitle {
+		.topTitle;
+		color: @color-textdark;
+	}
+
+	&-topLine {
+		.line;
+		background: #edcc8a;
+	}
+
+	&-topText {
+		.topText;
+		color: @color-textdark;
+	}
+
+	&-topCategory {
+		margin: 0 auto;
+		width: 378px;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 38px;
+	}
+
+	&-topCategoryRadio {
+		display: none;
+	}
+
+	&-topCategoryRadioStyle {
+		display: inline-block;
+		background: #edcc8a;
+		font-family: TitilliumWeb-Regular, sans-serif;
+		font-size: 18px;
+		color: 	@color-textdark;
+		text-transform: uppercase;
+		height: 38px;
+		line-height: 38px;
+		padding: 0 22px;
+		border-radius: @rad5;
+	}
+
+	&-topCategoryRadio:checked+&-topCategoryRadioStyle {
+		background: @color-textlight;
+	}
+
+	&-bottom {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	&-bottomCard {
+		padding-top: 60px;
+	}
+
+	&-bottomCardText {
+		text-align: center;
+		font-family: TitilliumWeb-Regular, sans-serif;
+		color: @color-textdark;
+		text-transform: uppercase;
+		font-size: 18px;
+		padding-top: 27px;
+	}
+
+	&-button {
+		padding-bottom: 110px;
+	}
+}

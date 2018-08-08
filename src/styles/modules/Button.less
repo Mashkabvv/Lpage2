@@ -1,0 +1,42 @@
+.Button {
+	background: #eb7d4b;
+	color: @color-textlight;
+	font-family: "TitilliumWeb-SemiBold", sans-serif;
+	padding: 25px 0;
+	display: block;
+	width: 293px;
+	text-align: center;
+	border-radius: @rad5;
+	position: relative;
+	margin: 0 auto;
+	text-transform: uppercase;
+	margin-top: 60px;
+
+	&:after {
+		background: #ba6664;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		content: '';
+		height: 4px;
+		border-bottom-left-radius: @rad5;
+    	border-bottom-right-radius: @rad5;
+	}
+
+	&--mint {
+		background: #17c2a4;
+
+		&:after {
+			background: #4fa78e;
+		}
+	}
+
+	&--blue {
+		background: #30bae7;
+	
+		&:after {
+			background: #3194c5;		
+		}
+	}
+}
